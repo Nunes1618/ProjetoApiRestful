@@ -1,0 +1,90 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Serviço",
+    "description": "Descrição",
+    "price": 1600,
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fcriatividade&psig=AOvVaw0zwwzc7VeVgPADJFAfHEKt&ust=1704385419453000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDWtNHQwYMDFQAAAAAdAAAAABAD"
+}
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/65afd1b100825ebb4a73c483
+
+###
+DELETE http://localhost:3000/api/services/65afd1b100825ebb4a73c483
+
+###
+PUT http://localhost:3000/api/services/65afd0f400825ebb4a73c47f
+Content-Type: application/json
+
+{
+    "name": "Atualização dos dados.",
+    "description": "Descrição",
+    "price": 2500,
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fcriatividade&psig=AOvVaw0zwwzc7VeVgPADJFAfHEKt&ust=1704385419453000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDWtNHQwYMDFQAAAAAdAAAAABAD"
+}
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Primeiro evento",
+    "author": "Wesley",
+    "description": "Festa de aniversário",
+    "budget": 9000,
+    "image": "https://br.freepik.com/fotos-gratis/quadro-de-aniversario-colorido-com-itens-de-festa-multicoloridos-sobre-fundo-verde_3641151.htm#query=aniversario%20infantil&position=14&from_view=keyword&track=ais&uuid=d8c0f489-520e-4b0e-bb55-d6b179b2ef86",
+    "services": [
+    {
+        "name": "Serviço 1",
+        "description": "Servico de teste 1",
+        "price": 1600,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fcriatividade"
+    },
+    {
+        "name": "Serviço 2",
+        "description": "Serviço de teste 2",
+        "price": 2000,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fcriatividade"
+    }
+]
+}
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/65b2982a7469e2ae29cef402
+
+###
+DELETE http://localhost:3000/api/parties/65b2982a7469e2ae29cef402
+
+###
+PUT http://localhost:3000/api/parties/65b2988d7469e2ae29cef404
+Content-Type: application/json
+
+{
+    "title": "Primeiro evento",
+    "author": "Wesley",
+    "description": "Festa de aniversário",
+    "budget": 9000,
+    "image": "https://br.freepik.com/fotos-gratis/quadro-de-aniversario-colorido-com-itens-de-festa-multicoloridos-sobre-fundo-verde_3641151.htm#query=aniversario%20infantil&position=14&from_view=keyword&track=ais&uuid=d8c0f489-520e-4b0e-bb55-d6b179b2ef86",
+    "services": [
+    {
+        "name": "Serviço 1",
+        "description": "Servico de teste 1",
+        "price": 1600,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fcriatividade"
+    },
+    {
+        "name": "Serviço 2",
+        "description": "Serviço de teste 2",
+        "price": 2000,
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbr.freepik.com%2Ffotos-vetores-gratis%2Fcriatividade"
+    }
+]
+}
