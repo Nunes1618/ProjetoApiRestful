@@ -2,7 +2,7 @@
 
 Projeto que tem como finalidade fazer o gerenciamento de custos de festas, como a criação de festas, atualização, custos, orçamentos e o cancelamento das mesmas.
 
-- O projeto foi criado para ampliar meus conhecimentos sobre APIs.
+- O projeto foi criado para ampliar meus conhecimentos sobre APIs sem fins profissionais.
 
 ## Tecnologias utilizadas
 - Node.js
