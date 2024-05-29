@@ -16,4 +16,7 @@ Projeto que tem como finalidade fazer o gerenciamento de custos de festas, como 
 - Fazer o clone do repositório.
 - Em seguida instalar as dependências com o comando npm install.
 - Ter uma conta no banco de dados Mongo DB.
-- Por último inciar o programa com o comando npm start.
+- Por último iniciar o programa com o comando npm start.
+
+- ## Contato
+- wesley.nunes75@gmail.com
